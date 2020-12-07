@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### {Brief description of applicaton}, {Date of current version}
+#### This application will return all numbers from 1 to the user inputted number and replace certain integers with 'ping', 'pong', or 'ping-pong', 12.07.2020
 
 #### By _**Kaila Sprague McRae & Joseph Nero**_
 
@@ -14,27 +14,23 @@
 
 | Test | Input | Output |
 | :------------- | :------------- | :------------- |
-| ****|||
-| It will return a range of numbers starting from '1' to the user inputed number |  |  |
-| It will replace all numbers divisible by 3 with "ping" |  |  |
-| It will replace all numbers divisible by 5 with "pong" |  |  |
-| It will replace all numbers divisible by both 3 and 5 with "ping-pong" |  |  |
+| **returnNumber()**|||
+| It will return a range of numbers starting from '1' to the user inputed number | 5 | 1, 2, 3, 4, 5 |
+| It will replace all numbers divisible by 3 with "ping" | 5 | 1, 2, ping, 4, 5 |
+| It will replace all numbers divisible by 5 with "pong" | 5 | 1, 2, ping, 4, pong |
+| It will replace all numbers divisible by both 3 and 5 with "ping-pong" | 15 | 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong |
 
 </details>
 
 ## 🔧 Setup/Installation Requirements
 
-### View Online
-
-_To view my live website, {Name of Page}, visit_[https://kaila-spraguemcrae.github.io/FINISH-URL](https://kaila-spraguemcrae.github.io/FINISH-URL)
-
 ### Open Locally
 
-Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/FINISH-URL](https://guthub.com/kaila.spraguemcrae/FINISH-URL), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file
+Go to my GitHub repository here, [https://guthub.com/kaila.spraguemcrae/ping-pong](https://guthub.com/kaila.spraguemcrae/ping-pong), and click on the green 'Code' button to clone the repository, Open with GitHub Desktop OR Download the ZIP file
 
 ##### To clone:
 1. Push the green 'Clone' button and copy the URL.
-2. Open Terminal or GitBash and input the command: `git clone https://github.com/kaila-spraguemcrae/FINISH-URL`
+2. Open Terminal or GitBash and input the command: `git clone https://github.com/kaila-spraguemcrae/ping-pong`
 3. To view the code, open the copied directory with Visual Studio Code or your preferred text editor by inputing the command `code .` in your terminal.
 4. To view the website, open index.html in Chrome or your preferred browser.
 

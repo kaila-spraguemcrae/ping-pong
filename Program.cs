@@ -1,19 +1,15 @@
 using System; 
-using PingPongProject.Models;
+using PingPongProject;
 
-namespace PingPongProject {
-
- public class Program
+public class Program
+{
+  public static void Main()
   {
-    public static void Main()
-    {
-      PingPong number = new PingPong();
-      Console.WriteLine("Enter a number");
-      string userNumber = Console.ReadLine(); 
-      int userInt = int.Parse(userNumber);
-      Console.WriteLine(userInt); 
-      int x = number.returnNumber(userInt);
-      Console.WriteLine(x); 
-    }
+    PingPong number = new PingPong();
+    Console.WriteLine("Enter a number");
+    string userNumber = Console.ReadLine(); 
+    int userInt = int.Parse(userNumber);
+    Console.WriteLine(userInt); 
+    number.returnNumber(userInt);
   }
 }

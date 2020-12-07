@@ -1,13 +1,21 @@
 using System;  
 
-namespace PingPongProject.Models {
-
+namespace PingPongProject {
   public class PingPong 
   {
-    public int returnNumber(int number1)
+    public void returnNumber(int number1)
     {
-      int result = number1 * 3; 
-      return result; 
+      for (int i = 1; i <= number1; i++) {
+        if(i % 3 == 0 && i % 5 == 0) {
+          Console.WriteLine("ping-pong");
+        } else if (i % 3 == 0) {
+          Console.WriteLine("ping");
+        } else if (i % 5 == 0) {
+          Console.WriteLine("pong");
+        } else {
+        Console.WriteLine(i);
+        }
+      }
     }
   }
 }
