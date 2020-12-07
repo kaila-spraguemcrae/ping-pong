@@ -6,7 +6,7 @@
 
 ## 🚩 Description
 
-{Detailed description, its purpose and usage. What does it does and other information.}
+This application will return all numbers from 1 to the user inputted number. It will replace numbers divisible by 3 with 'ping'; numbers divisible by 5 with 'pong'; or numbers divisible by both 3 and 5 with 'ping-pong'
 
 ## Specs
 
